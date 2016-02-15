@@ -1,0 +1,116 @@
+html, body {  padding: 0;  margin: 0; background-color: white; height:100%}
+
+.off-canvas-wrap {
+  min-height: 100%;
+}
+
+.size-large { 
+
+  font-size: 65px; 
+
+}
+
+.middle {
+
+  background-color: white;
+  background-repeat: auto;
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding-bottom: 10%;
+
+}
+
+.inner-wrap {
+
+  max-width:100%;
+  padding: 0; 
+  margin: 0 auto;
+  min-height: 100%;
+  background-color:white no-repeat center center fixed;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+
+}
+/*@media only screen and (min-device-width: 200px) {
+    .inner-wrap { 
+        background: url("/img/fog.jpg") no-repeat center center fixed;
+          background-repeat: no-repeat;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+}
+}*/
+
+.footer{
+
+  color: #008CBA;
+  text-align: center;
+  text-shadow: 1px 1px 2px #008CBA, 0 0 25px #008CBA, 0 0 5px #008CBA;
+
+
+}
+
+.intro-text {
+
+
+  font-size: 290%;
+  color: #008CBA; 
+  position: absolute;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-shadow: 1px 1px 1px #008CBA, 0 0 1px #008CBA, 0 0 1px #008CBA;
+  position: relative;
+
+}
+
+
+.size-large { 
+
+  font-size: 65px; 
+  
+
+}
+
+
+.content {
+
+  padding-bottom: 5%;
+  width: 90%;
+  margin:0 auto;
+  color: black;
+  text-align: center;
+  color:black;
+  border-radius: 25px;
+  background-color: white;
+
+
+}
+
+
+.left-off-canvas-toggle {
+
+color:#008CBA;
+text-shadow: 1px 1px 2px black, 0 0 1px black, 0 0 1px black;
+font-size: 150%;
+
+
+}
+
+
+.row  {
+
+  margin: 0 auto;
+  max-width: 100%;
+  width: 100%;
+
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: black;
+}
+
