@@ -1,5 +1,9 @@
 # Do not remove this line, otherwise mod_rewrite rules will stop working
 
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
+
 ################ Expires Control ################
 ExpiresActive On
 ExpiresDefault A0
